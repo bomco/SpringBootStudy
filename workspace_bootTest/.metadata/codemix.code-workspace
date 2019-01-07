@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "C:\\Users\\Bethel_laptop\\Desktop\\CRUDTest"
+    },
+    {
+      "path": "D:\\Spring\\SpringBoot\\workspace_bootTest\\demo"
+    }
+  ],
+  "settings": {
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "htmlhint.options": {
+      "attr-value-double-quotes": true,
+      "attr-no-duplication": true,
+      "tag-pair": true,
+      "spec-char-escape": true,
+      "id-unique": false,
+      "src-not-empty": true,
+      "title-require": true
+    }
+  }
+}

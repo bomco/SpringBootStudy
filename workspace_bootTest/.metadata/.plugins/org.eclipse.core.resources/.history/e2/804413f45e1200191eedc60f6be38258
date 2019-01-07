@@ -1,0 +1,11 @@
+package com.example.demo.board.domain;
+
+public class FileVO {
+	private int fno;
+	private int bno;
+	private String fileName; //저장할 파일
+	private String fileOnName; //실제파일
+	private String fileUrl;
+	
+	
+}

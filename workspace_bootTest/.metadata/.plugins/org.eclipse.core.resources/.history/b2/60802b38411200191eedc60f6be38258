@@ -1,0 +1,22 @@
+package com.example.demo.board.controller;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.demo.board.service.BoardService;
+
+@Controller
+public class BoardController {
+
+	@Resource(name="com.example.demo.board.service.BoaedService")
+	BoardService mBoardService;
+	
+	@RequestMapping("/list")//게시판 리스트 화면 호출
+	private String boardList(Model model)throws Exception{
+		model.addAttribute("list", mBoardService.)
+		return "list"; //생성할 jsp
+	}
+}

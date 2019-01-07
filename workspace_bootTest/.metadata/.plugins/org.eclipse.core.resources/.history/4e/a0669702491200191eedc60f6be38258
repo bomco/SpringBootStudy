@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert Form</title>
+</head>
+<body>
+<h2> 게시글 작성 </h2>
+<div class="container">
+	<form action="/insertProc" method="post">
+	
+	</form>
+</div>
+<%@ include file="bootstrap.jsp" %>
+</body>
+</html>
