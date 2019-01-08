@@ -4,7 +4,7 @@ public class FileVO {
 	private int fno;
 	private int bno;
 	private String fileName; //저장할 파일
-	private String fileOnName; //실제파일
+	private String fileOriName; //실제파일
 	private String fileUrl;
 	
 	public int getFno() {
@@ -25,11 +25,11 @@ public class FileVO {
 	public void setFileName(String fileName) {
 		this.fileName = fileName;
 	}
-	public String getFileOnName() {
-		return fileOnName;
+	public String getFileOriName() {
+		return fileOriName;
 	}
-	public void setFileOnName(String fileOnName) {
-		this.fileOnName = fileOnName;
+	public void setFileOriName(String fileOriName) {
+		this.fileOriName = fileOriName;
 	}
 	public String getFileUrl() {
 		return fileUrl;

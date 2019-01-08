@@ -1,0 +1,6 @@
+package com.example.demo.board.mapper;
+
+@Repository("com.example.demo.comment.mapper.CommentMapper")
+public interface CommentMapper {
+
+}

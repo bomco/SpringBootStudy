@@ -1,0 +1,13 @@
+package com.example.demo.board.domain;
+
+import javax.xml.crypto.Data;
+
+public class CommentVO {
+	private int cno;
+	private int bno;
+	private String content;
+	private String writer;
+	private Data reg_date;
+	
+	
+}

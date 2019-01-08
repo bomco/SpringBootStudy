@@ -1,0 +1,11 @@
+package com.example.demo.board.mapper;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("com.example.demo.comment.mapper.CommentMapper")
+public interface CommentMapper {
+	//댓글 개수
+	public int commentCount() throws Exception;
+	
+	//
+}
