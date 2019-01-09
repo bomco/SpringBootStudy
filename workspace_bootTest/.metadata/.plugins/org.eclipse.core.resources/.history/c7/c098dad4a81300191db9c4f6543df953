@@ -1,0 +1,8 @@
+package com.example.demo.board.service;
+
+import org.springframework.stereotype.Service;
+
+@Service("com.example.demo.board.service.CommentService")
+public class CommentService {
+
+}

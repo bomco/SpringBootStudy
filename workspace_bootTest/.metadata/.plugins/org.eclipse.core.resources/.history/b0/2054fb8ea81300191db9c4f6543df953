@@ -1,0 +1,6 @@
+package com.example.demo.board.service;
+
+@Service("com.example.demo.board.service.CommentService")
+public class CommentService {
+
+}

@@ -1,0 +1,18 @@
+package com.example.demo.board.service;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.board.mapper.CommentMapper;
+
+@Service("com.example.demo.board.service.CommentService")
+public class CommentService {
+	
+	@Resource(name="com.example.demo.board.mapper.CommentMapper")
+	CommentMapper mCommentMapper;
+	
+	public List<CommentVO>commentListService() throws Exception{
+		return mCommentMapper.commentList();
+	}
+}

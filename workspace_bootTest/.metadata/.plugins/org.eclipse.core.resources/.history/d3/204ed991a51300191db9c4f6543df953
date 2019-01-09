@@ -1,0 +1,16 @@
+package com.example.demo.board.controller;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/comment")
+public class CommentController {
+
+	@Resource(name="com.example.demo.board.service.CommentService")
+	CommentService mCommentService;
+	
+	@RequestMapping("/list") //댓글 리스트
+}
