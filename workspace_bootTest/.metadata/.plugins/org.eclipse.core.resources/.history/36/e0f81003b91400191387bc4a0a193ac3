@@ -1,0 +1,33 @@
+package com.example.demo.board.service;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.board.domain.CommentVO;
+import com.example.demo.board.mapper.CommentMapper;
+
+@Service("com.example.demo.board.service.CommentService")
+public class CommentService {
+	
+	@Resource(name="com.example.demo.board.mapper.CommentMapper")
+	CommentMapper mCommentMapper;
+	
+	public List<CommentVO>commentListService() throws Exception{
+		return mCommentMapper.commentList();
+	}
+	
+	public int commentInsertService(CommentVO commemt) throws Exception{ //댓글 작성
+		return mCommentMapper.commentInsert(commemt);
+	}
+	
+	public int commentUpdateService(CommentVO commemt) throws Exception{ //댓글 수정
+		return mCommentMapper.commentUpdate(commemt);
+	}
+	
+	public int commentDeleteService(int cno) throws Exception{ //댓글 삭제
+		return mCommentMapper.commentDelete(cno);
+	}
+}

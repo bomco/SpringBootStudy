@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<script>
+var bno = '${detail.bno}'; //게시글 번호
+
+$('[name=commentInsertBtn]').click(function() { //댓글 등록 버튼 클릭시
+	var insertData = $
+})
+
+</script>
