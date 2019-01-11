@@ -47,7 +47,6 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <version>8.0.36</version>
         </dependency>
                 
         <dependency>
@@ -60,14 +59,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
-            <version>1.4.1.RELEASE</version>
         </dependency>
                 
         <!-- Mysql -->
  		<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
         </dependency>
 	
  
@@ -94,7 +91,6 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.0</version>
         </dependency>
         
         <dependency>
